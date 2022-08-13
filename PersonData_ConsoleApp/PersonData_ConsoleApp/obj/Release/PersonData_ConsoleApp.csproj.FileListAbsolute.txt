@@ -1,0 +1,10 @@
+E:\Console App\PersonData_ConsoleApp\PersonData_ConsoleApp\bin\Release\PersonData_ConsoleApp.exe.config
+E:\Console App\PersonData_ConsoleApp\PersonData_ConsoleApp\bin\Release\PersonData_ConsoleApp.exe.manifest
+E:\Console App\PersonData_ConsoleApp\PersonData_ConsoleApp\bin\Release\PersonData_ConsoleApp.application
+E:\Console App\PersonData_ConsoleApp\PersonData_ConsoleApp\bin\Release\PersonData_ConsoleApp.exe
+E:\Console App\PersonData_ConsoleApp\PersonData_ConsoleApp\bin\Release\PersonData_ConsoleApp.pdb
+E:\Console App\PersonData_ConsoleApp\PersonData_ConsoleApp\obj\Release\PersonData_ConsoleApp.csproj.CoreCompileInputs.cache
+E:\Console App\PersonData_ConsoleApp\PersonData_ConsoleApp\obj\Release\PersonData_ConsoleApp.exe.manifest
+E:\Console App\PersonData_ConsoleApp\PersonData_ConsoleApp\obj\Release\PersonData_ConsoleApp.application
+E:\Console App\PersonData_ConsoleApp\PersonData_ConsoleApp\obj\Release\PersonData_ConsoleApp.exe
+E:\Console App\PersonData_ConsoleApp\PersonData_ConsoleApp\obj\Release\PersonData_ConsoleApp.pdb

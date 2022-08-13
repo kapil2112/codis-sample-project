@@ -1,0 +1,69 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="PersonDetail">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PersonId" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+                <xs:element name="FirstName" type="xs:string" minOccurs="0" />
+                <xs:element name="LastName" type="xs:string" minOccurs="0" />
+                <xs:element name="DateOfBirth" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NickName" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="AddressDetail">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="AddressId" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+                <xs:element name="Line1" type="xs:string" minOccurs="0" />
+                <xs:element name="Line2" type="xs:string" minOccurs="0" />
+                <xs:element name="Country" type="xs:string" minOccurs="0" />
+                <xs:element name="PostCode" type="xs:string" minOccurs="0" />
+                <xs:element name="PersonId" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Primary_PersonId" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//PersonDetail" />
+        <xs:field xpath="PersonId" />
+      </xs:unique>
+      <xs:unique name="Primary_AddressId" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//AddressDetail" />
+        <xs:field xpath="AddressId" />
+      </xs:unique>
+      <xs:keyref name="Refrence_AddressDetail" refer="Primary_PersonId" msdata:ConstraintOnly="true">
+        <xs:selector xpath=".//AddressDetail" />
+        <xs:field xpath="PersonId" />
+      </xs:keyref>
+    </xs:element>
+  </xs:schema>
+  <PersonDetail>
+    <PersonId>1</PersonId>
+    <FirstName>Kapil</FirstName>
+    <LastName>Khambhadiya</LastName>
+    <DateOfBirth>1991-06-13T05:30:00+05:30</DateOfBirth>
+    <NickName>Kapil</NickName>
+  </PersonDetail>
+  <AddressDetail>
+    <AddressId>1</AddressId>
+    <Line1>101 Lawn Line</Line1>
+    <Line2>Near Main Road</Line2>
+    <Country>Monaco</Country>
+    <PostCode>123456M</PostCode>
+    <PersonId>1</PersonId>
+  </AddressDetail>
+  <AddressDetail>
+    <AddressId>2</AddressId>
+    <Line1>Mummy's Kitchen Road</Line1>
+    <Line2>Main Street</Line2>
+    <Country>denmark</Country>
+    <PostCode>D123</PostCode>
+    <PersonId>1</PersonId>
+  </AddressDetail>
+</NewDataSet>

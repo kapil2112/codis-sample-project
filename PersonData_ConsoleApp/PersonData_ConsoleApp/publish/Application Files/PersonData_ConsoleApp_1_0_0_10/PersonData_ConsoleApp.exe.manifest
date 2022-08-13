@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PersonData_ConsoleApp.exe" version="1.0.0.10" publicKeyToken="da9c44e12bcc07db" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PersonData_ConsoleApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PersonData_ConsoleApp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PersonData_ConsoleApp.exe" size="29608">
+      <assemblyIdentity name="PersonData_ConsoleApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>XAJPgJunuf4B3dT8weEN2UZSvkRO2g6ulEHYAr8ZuZo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="PersonData_ConsoleApp.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uAYar7vNyhiVJ1+rwDucruPLIXGcjhw/EzQpBzo3wcI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=KAPIL\Kapil" issuerKeyHash="4059dab160ab4a860e858cf2dadb4f49e34d4816" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>XjX7CMv1u6ubR8Cd2YKS3M7Kpld2+EmE5uTpIfVNGxc=</DigestValue></Reference></SignedInfo><SignatureValue>p2DyStZs8YQpS9C7fvmGcdRBU4ZHjIwIc1p4mwgYZA6yL1Vzv+AAgXFj2s0WJX4vnu0JiL0I3b1CFLKhAlQW3X25H9/iHtGyHnkTuehJH9gyKaY3ZQ+Pe2BJmumC6WXsFzs8lwCek/J/IL7Qfhtc+04WZ9zWYaL+uaYTHWGLkn8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>+yRvPFT+xTOz0q04go/12gL9P2DzMdXfKtEjFUb9VFesgw6u8vND8kgzNYQ1tcn23KLA/JbRzMeNgy1azyK5NHWDiAWLulS96uEWihANlCWUg2zKjyhEtl87Str9gGdlC6GAHJXZKBWIKoKzSaUYhGlk1aZ8BTspIhYADF5SuR0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="171b4df521e9e4e68449f87657a6cacedc9282d99dc0479babbbf5cb08fb355e" Description="" Url=""><as:assemblyIdentity name="PersonData_ConsoleApp.exe" version="1.0.0.10" publicKeyToken="da9c44e12bcc07db" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=KAPIL\Kapil</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>9zAnFaTLj1OBrx+dYRJBW4GJzbEYH1egHFMFC81baE0=</DigestValue></Reference></SignedInfo><SignatureValue>wd/8oq+oBI3qUfS+LQv1eGACgQTKzRHmF8VYZ/DtAwE330aAcAh2anIfFHmZqOvSNZYp0KPJo1PoZFexCMmvAqEIsdcUinEDCU4BKc0WDbae8daaAUUPoik0hsnkjrZ6Xax9kV4Fjo902PLDug45NqAw9MRuhZ9oACOWxbPbN+k=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>+yRvPFT+xTOz0q04go/12gL9P2DzMdXfKtEjFUb9VFesgw6u8vND8kgzNYQ1tcn23KLA/JbRzMeNgy1azyK5NHWDiAWLulS96uEWihANlCWUg2zKjyhEtl87Str9gGdlC6GAHJXZKBWIKoKzSaUYhGlk1aZ8BTspIhYADF5SuR0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQJpkYNzz3/JVMFhq/bNlDejANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYASwBBAFAASQBMAFwASwBhAHAAaQBsMB4XDTIyMDgxMjE3NTIyNVoXDTIzMDgxMjIzNTIyNVowITEfMB0GA1UEAx4WAEsAQQBQAEkATABcAEsAYQBwAGkAbDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA+yRvPFT+xTOz0q04go/12gL9P2DzMdXfKtEjFUb9VFesgw6u8vND8kgzNYQ1tcn23KLA/JbRzMeNgy1azyK5NHWDiAWLulS96uEWihANlCWUg2zKjyhEtl87Str9gGdlC6GAHJXZKBWIKoKzSaUYhGlk1aZ8BTspIhYADF5SuR0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQB5PkEkFvdeNPrJ6GwzhTmKn7LaikleOoazaAnF6amV2LLz9wdba66DXdLkpVpHxYdjTcBRDCh8s734jjANQx8O7zCjohlRCkmfqPybqjRSk2lAa90f2OKQm342D8VHWeR3ncSoVvzZxVadUigVsCAACPDF6C8jCw0XxXIhHFKq6g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
